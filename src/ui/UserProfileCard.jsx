@@ -17,7 +17,7 @@ function UserProfileCard() {
   return (
     <StyledUserProfileCard>
       <UserProfileHeader />
-      {/* <UserProfileLinks /> */}
+      <UserProfileLinks />
     </StyledUserProfileCard>
   );
 }
