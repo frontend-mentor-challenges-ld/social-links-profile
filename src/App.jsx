@@ -12,6 +12,10 @@ const StyledAppLayout = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 23.4375em) {
+    padding: 15.5rem 2.5rem;
+  }
 `;
 
 function App() {

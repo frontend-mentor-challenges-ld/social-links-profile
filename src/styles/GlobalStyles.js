@@ -32,6 +32,10 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+
+    @media only screen and (max-width: 23.4375em) {
+      font-size: 50%;
+    }
   }
 
   body {
