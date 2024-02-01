@@ -1,5 +1,15 @@
+import GlobalStyles from "./styles/GlobalStyles";
+
+import Attribution from "./ui/Attribution";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <GlobalStyles />
+
+      {/* <Attribution /> */}
+    </>
+  );
 }
 
 export default App;
