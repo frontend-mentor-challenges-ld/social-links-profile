@@ -1,5 +1,14 @@
+import styled from 'styled-components'
+
+const StyledUserProfileCard = styled.``
+
 function UserProfileCard() {
-  return <div>UserProfileCard</div>;
+  return (
+    <StyledUserProfileCard>
+      UserProfileCard
+    </StyledUserProfileCard>
+  )
 }
 
-export default UserProfileCard;
+export default UserProfileCard
+

@@ -1,5 +1,13 @@
+import styled from 'styled-components'
+
+const StyledUserProfileLinks = styled.``
+
 function UserProfileLinks() {
-  return <div>UserProfileLinks</div>;
+  return (
+    <StyledUserProfileLinks>
+      UserProfileLinks
+    </StyledUserProfileLinks>
+  )
 }
 
-export default UserProfileLinks;
+export default UserProfileLinks

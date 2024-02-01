@@ -1,5 +1,13 @@
+import styled from 'styled-components'
+
+const StyledUserProfileHeader = styled.``
+
 function UserProfileHeader() {
-  return <div>UserProfileHeader</div>;
+  return (
+    <StyledUserProfileHeader>
+      UserProfileHeader
+    </StyledUserProfileHeader>
+  )
 }
 
-export default UserProfileHeader;
+export default UserProfileHeader
